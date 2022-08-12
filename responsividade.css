@@ -1,0 +1,9 @@
+.opcao{
+    margin:5%;
+}
+@media(max-width: 600px){
+    .opcao{
+       margin-left: 30%;
+       width: 100%;
+    }
+}
