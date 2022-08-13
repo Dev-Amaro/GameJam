@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Login V1</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -36,7 +36,7 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="nome" placeholder="Nome">
+						<input class="input100" type="text" id="nome" name="nome" placeholder="Nome">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i aria-hidden="true"></i>
@@ -50,23 +50,23 @@
 							word-break: break-word;"><br>Você Possui alguma dessas deficiência:</legend>
 					
 						<div>
-						  <input type="checkbox" name="auditiva" id="auditivo" onclick="proximo()">
+						  <input type="checkbox" name="auditiva" id="auditivo">
 						  <input type="button" id="hablar4" value="Deficiência Auditiva">
 						</div>
 					
 						<div>
-						  <input type="checkbox" name="visual" id="visuais"onclick="proximo()">
+						  <input type="checkbox" name="visual" id="visuais">
 						  <input type="button" id="hablar5" value="Deficiência Visual">
 						</div>
 
 						<div>
-							<input type="checkbox"  name="nao" id="naotem"onclick="proximo()">
+							<input type="checkbox"  name="nao" id="naotem">
 							<input type="button" id="hablar6" value="Não possuo nenhuma deficiência" for="horns">
 						  </div>
 					</fieldset>
 					
 					<div class="container-login100-form-btn">
-						<a class="btn btn-xm btn-block btn-entrar btn-primary" type="submit" onclick="return proximo()">Entrar</a>
+						<a class="btn btn-xm btn-block btn-entrar btn-primary" type="submit" onclick="proximo()">Entrar</a>
 					</div>
 				</form>
 			</div>
